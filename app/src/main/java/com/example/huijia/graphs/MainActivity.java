@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        eText = (EditText) findViewById(R.id.editText2);
         b1 = (Button) findViewById(R.id.button1);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String zipcode = eText.getText().toString();
                 Intent in=new Intent(MainActivity.this,Graph.class);
                 startActivity(in);
             }

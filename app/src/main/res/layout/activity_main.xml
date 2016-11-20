@@ -32,24 +32,14 @@ android:transitionGroup="true">
     android:layout_alignLeft="@+id/imageView"
     android:layout_alignStart="@+id/imageView" />
 
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:layout_below="@+id/button1"
-        android:layout_alignLeft="@+id/imageView"
-        android:layout_alignStart="@+id/imageView"
-        android:inputType="text"
-        android:hint="Enter ZIP code"
-        android:layout_alignRight="@+id/button1"
-        android:layout_alignEnd="@+id/button1" />
+
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Historical Data"
         android:id="@+id/button2"
-        android:layout_below="@id/editText2"
+        android:layout_below="@id/button1"
         android:layout_alignLeft="@+id/imageView"
         android:layout_alignRight="@+id/button3" />
 
