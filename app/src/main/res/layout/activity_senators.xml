@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.huijia.graphs.Senators">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_marginTop="0dp"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_margin="0dp" />
+
+    <Button
+        android:text="@string/senator"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonsenator"
+        android:onClick="selfDestruct"
+        android:layout_marginTop="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences|number"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:textSize="15sp"
+        android:layout_alignBaseline="@+id/buttonsenator"
+        android:layout_alignBottom="@+id/buttonsenator"
+        android:layout_alignRight="@+id/progressBar"
+        android:layout_alignEnd="@+id/progressBar"
+        android:hint="Enter Zip Code" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/PHONE"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonsenator"
+        android:layout_marginTop="85dp"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8"
+        android:layout_alignParentEnd="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/PHONE" />
+
+    <TextView
+        android:text="Change your Environment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Call your State Senator and Make a Difference! "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:layout_below="@+id/PHONE"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="72dp" />
+
+    <TextView
+        android:text="@string/besttextEver"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:gravity="center_horizontal|center"
+        android:layout_below="@+id/buttonsenator"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+    <!-- selfDestruct is a method -->
+    />
+</RelativeLayout>

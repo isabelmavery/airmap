@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AirMap</string>
+    <string name="action_settings">Settings</string>
+    <string name="featureServiceURL">http://services3.arcgis.com/KrMsK3K8jjfriBuK/arcgis/rest/services/2016_ozone_avg_1/FeatureServer/0</string>
+
+    <string name="senator">Find Your Senator!</string>
+    <string name="besttextEver" />
+
+</resources>
